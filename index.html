@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Home - Neil Feris</title>
     <meta name="description" content="My portfolio website" />
+
+    <!-- import local bootstrap CSS-->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- import google font -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap"
     />
+
+    <!-- import ionicons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
     />
+
+    <!-- import css from pikaday for menu -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
     />
+
+    <!-- import custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.min.css" />
   </head>
 
+  <!-- Site built in part with Bootstrap Studio -->
   <body>
+    <!-- Navbar is fixed to the top with custom gradient and auto collapses at small sizes-->
     <nav
       class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient"
     >
@@ -49,6 +62,7 @@
     <main class="page landing-page">
       <section class="portfolio-block block-intro">
         <div class="container">
+          <!-- Profile photo is styled to be circular with css -->
           <div
             class="avatar"
             style="background-image: url('assets/img/profile.jpg')"
@@ -63,6 +77,7 @@
         </div>
       </section>
       <section class="portfolio-block photography">
+        <!-- Zoom is applied via css when hovering over images in section -->
         <div class="container">
           <div class="row g-0">
             <div class="col-md-6 col-lg-4 item zoom-on-hover">
@@ -177,6 +192,7 @@
       </div>
     </section>
     <footer class="page-footer">
+      <!-- footer section contains icons which link to social media -->
       <div class="container">
         <div class="links">
           <a href="cv.html">About me</a><a href="projects.html">Projects</a>
